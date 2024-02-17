@@ -1,0 +1,47 @@
+cd path/to/your/cloned/repository
+
+git add .
+
+git commit -m "Add my project to the repository"
+
+ssh-keygen -t rsa -b 4096 -C "dauphong0123@gmail.com" 
+
+cat ~/.ssh/id_rsa.pub
+
+git remote set-url origin git@github.com:MioChann/Ecommerce_website_backend.git
+
+git push origin main 
+
+
+
+
+
+git init 
+
+git branch -M main
+
+git add .
+
+git commit -m "Add my project to the repository"
+
+git remote set-url origin git@github.com:MioChann/Backend-ecommerce-SpringBoot.git
+
+git remote add origin git@github.com:MioChann/Backend-ecommerce-SpringBoot.git
+
+git push origin main 
+
+
+
+git init 
+
+git branch -M main
+
+git add .
+
+git commit -m "Add my project to the repository"
+
+git remote set-url origin git@github.com:MioChann/Todo-List.git
+
+git remote add origin git@github.com:MioChann/Todo-List.git
+
+git push origin main 
